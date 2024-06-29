@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: block;}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #c7e8f7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+#cabecera form {
+    display: flex;
+}
+
+#contenido {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+main {
+    flex: 3;
+    padding-right: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #c5e1f8;
+}
+
+.descripcion img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.ingredientes ul li {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.elaboracion p {
+    margin: 0 0 10px 0;
+}
+
+aside {
+    width: 300px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #abeeee;
+    float: left;
+}
+
+#publicidad img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 98%;
+    margin-left: 20px;
+    background-color: #abeeee;
+    text-align: left;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
